@@ -1,4 +1,4 @@
-# Учебный проект «Барбершоп»
+﻿# Учебный проект «Барбершоп»
 
 * Студент: [Evgeniya Paladina](https://up.htmlacademy.ru/htmlcss/16/user/343373).
 
@@ -9,7 +9,7 @@ _`.editorconfig`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
 ---
 
-### Памятка
+### Памяткам
 
 #### 1. Зарегистрируйтесь на Гитхабе
 
