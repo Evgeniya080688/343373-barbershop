@@ -39,12 +39,21 @@ h2 {
 
 .main-header {
   margin-bottom: 60px;
+
 }
 
 .main-navigation {
-  float: left;
+  float:left;
   width: 800px;
   min-height: 70px;
+  font-size: 0px;
+}
+
+.navigator-item{
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 43px;
+  font-size: 14px;
 }
 
 .user-block {
@@ -125,6 +134,17 @@ h2 {
   margin-bottom: 62px;
 }
 
+.breadcrumps {
+  font-size: 0px;
+}
+
+.breadcrumps-item {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 43px;
+  font-size: 14px;
+}
+
 .catalog-filter {
   float: left;
   width: 220px;
@@ -148,24 +168,50 @@ h2 {
 }
 
 .catalog-listproducts {
-  width: 700px;
   min-height: 593px;
-  float: left;
   margin-bottom: 48px;
+  font-size: 0px;
 }
 
-.catalog-product{
-  display: inline-block
+.catalog-product {
+  display: inline-block;
+  vertical-align: top;
   width: 220px;
   min-height: 285px;
   box-sizing: border-box;
   margin-right: 20px;
+  font-size: 14px;
 }
 
-.catalog-product:nth-child(3n){
+.catalog-product:nth-child(3n) {
   margin-right: 0px;
 }
 
+.catalog-price {
+  width: 187px;
+  min-height: 43px;
+  font-size: 0px;
+}
+
+.product-price {
+  display: inline-block;
+  width: 109px;
+  vertical-align: baseline;
+  font-size: 14px;
+}
+
+.catalog-price .btn {
+  display: inline-block;
+  width: 78px;
+  vertical-align: baseline;
+  font-size: 14px;
+}
+
+.paginator .btn {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+}
 
 /*catalog-item*/
 
@@ -178,6 +224,8 @@ h2 {
 
 .product-gallery{
   display: inline-block;
+  vertical-align: top;
+
 }
 
 .item-important {
@@ -187,12 +235,12 @@ h2 {
 
 .item-status {
   width: 250px;
-  foat: left;
+  float: left;
 }
 
 .item-article {
   width: 140px;
-  float: rigth;
+  float: right;
 
 }
 
