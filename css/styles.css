@@ -1,7 +1,6 @@
 html,
 body {
   min-width: 1122px;
-  min-height: 1750px;
   margin: 0;
   padding: 0;
 }
@@ -26,7 +25,6 @@ h2 {
 
 .clearfix::after {
   content: "";
-
   display: table;
   clear: both;
 }
@@ -207,6 +205,10 @@ h2 {
   font-size: 14px;
 }
 
+.paginator {
+  font-size: 0px;
+}
+
 .paginator .btn {
   display: inline-block;
   vertical-align: top;
@@ -222,6 +224,9 @@ h2 {
   margin-right: 90px;
 }
 
+.icon-pictures {
+  font-size: 0px;
+}
 .product-gallery{
   display: inline-block;
   vertical-align: top;
