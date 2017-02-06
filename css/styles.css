@@ -14,7 +14,7 @@ body {
   color: #ffffff;
   text-transform: uppercase;
 
-  background: #000000 url("../img/bg-image.png") no-repeat center top;
+  background: #000000 url("../img/bg-image.jpg") no-repeat center top;
 }
 
 
@@ -75,6 +75,7 @@ h2 {
 
 .main-navigation a:hover {
   background: #242424;
+  height: inherit;
 }
 
 .user-block {
@@ -109,8 +110,8 @@ h2 {
   width: 18px;
   height: 18px;
 
-  background: transparent url("img/sprite.png") no-repeat;
-  background-position: -1px -15px;
+  background: transparent url("../img/icon-login.png") no-repeat;
+  background-position: 0px 0px;
   opacity: 0.3;
 }
 
@@ -382,7 +383,7 @@ h2 {
   vertical-align: top;
   text-decoration: none;
 
-  background: #000000 url("img/sprite.png") no-repeat center;
+  background: #000000 url("../img/sprite.png") no-repeat center;
 
   transition:
     background-position 0.5s,
@@ -395,16 +396,15 @@ h2 {
 
 .social-btn-vk {
   background-position: 0 -83px;
-
-
 }
 
 .social-btn-fb {
-  background-position: 0px -40px;
+
+  background-position: 0px -41px;
 }
 
 .social-btn-inst {
-  background-position: 12px -313px;
+  background-position: 0px -63px;
 }
 
 .social-btn-vk:hover {
@@ -450,7 +450,10 @@ h2 {
 
 .active-menu {
   border-bottom: 5px solid #ffffff;
-  height: 23px;
+  padding: 20px;
+
+
+
 }
 
 .catalog-hat h1 {
@@ -512,6 +515,7 @@ h2 {
 
 .catalog-producters label{
   display: block;
+  position: relative;
   padding-top: 21px;
 }
 
@@ -613,16 +617,19 @@ h2 {
 }
 
 .catalog-price {
-  position: relative;
+
   margin: 15px;
-  width: 187px;
-  min-height: 44px;
+  width: 210px;
+  max-height: 44px;
   font-size: 0px;
 }
 
 .product-price {
-  left: 0;
+  display: inline-block;
+  vertical-align: top;
+
   padding: 11px 0px 11px 0px;
+  margin: 0;
   width: 110px;
   color: #000000;
   font-size: 14px;
@@ -631,10 +638,11 @@ h2 {
 }
 
 .btn-price {
-  position: absolute;
-  left: 110px;
-  bottom: 0;
+  display: inline-block;
+  vertical-align: top;
+
   padding: 11px 0px 11px 0px;
+  margin: 0;
   width: 78px;
   color: #e5e5e5;
   font-size: 14px;
@@ -725,11 +733,11 @@ h2 {
 }
 
 .item-price {
-  position: relative;
-  width: 178px;
-  min-height: 44px;
-  margin-top: 43px;
-  margin-bottom: 70px;
+
+  margin: 0px;
+  width: 210px;
+  max-height: 44px;
+  font-size: 0px;
 }
 
 .item-contents ul{
